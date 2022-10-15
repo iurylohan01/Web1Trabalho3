@@ -1,0 +1,94 @@
+.introducao{
+  text-align: center;
+  margin-top: 6.5em;
+}
+.introducao > h1{
+  color: #711313;
+  background-image: -webkit-linear-gradient(0deg, #b11010 0%, #ff0000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 40px;
+}
+.introducao > p{
+  color: var(--cor-fundo);
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: -22px;
+
+}
+.container{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+.molde{
+  margin-top: 2.5em;
+  border-color: var(--cor-fundo);
+  background-color: var(--cor-primaria1);
+  border-width: 1px;
+  border-radius: 7px;
+  border-style: solid;
+  width: 35vw;
+  height: 70%;
+}
+.textos{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.textos > h3{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: white;  
+}
+
+.icones{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+.text-con{
+  color: white;
+}
+
+.circle{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
+  float: left;
+  margin-top: 1.2em;
+  margin-right: 2em;
+}
+.circle-green{
+  background: var(--cor-green);
+}
+.circle-red{
+  background: var(--cor-red);
+}
+.circle-yellow{
+  background: var(--cor-yellow);
+}
+
+.text-green{
+  color: var(--cor-green);
+}
+.text-red{
+   color: var(--cor-red);
+}
+.text-yellow{
+   color: var(--cor-yellow);
+}
+
+.text-space{
+  margin-bottom: 2em;
+}
+.molde{
+  margin: 1em;
+}
+.text-remolde1{
+  float: right;
+}

@@ -1,0 +1,24 @@
+:root{
+  --cor-fundo: #ffffff;
+  --cor-fundo2: #292929;
+  --cor-fundo3: #1f1f1f;
+  --cor-primaria: #14161b;
+  --cor-primaria2: #1b1d25ff;
+  --cor-round: #666d8aff;
+  --cor-destaque: #b8faa5;
+  --cor-link: #b3eeff;
+  --cor-green: #9ff99b;
+  --cor-yellow: #ffff80;
+  --cor-red: #ff8080;
+}
+body{
+  background:#14161bff;
+  font-family: Inter,Helvetica,Arial,sans-serif;
+}
+#agradecimentos{
+  color: var(--cor-round);
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 0px 0px 23px rgba(0, 0, 0, 1);
+  letter-spacing: 1px;
+}
